@@ -1,6 +1,7 @@
 # 色付け係
 
 色付け係は、ターミナル上で文字列を色付けします。
+https://www.mm2d.net/main/prog/c/console-02.html を参考にANSIエスケープコードという機能を利用しています。
 
 ## インストール方法
 
@@ -12,4 +13,8 @@ gem install irotsukegakari
 
 ## 使い方
 
-後で、記載します。
+```ruby
+require 'irotsukegakari'
+
+Irotsukegakari('This is Yudofu.').red # => "\e[31mThis is Yudofu.\e[0m"
+```
