@@ -5,11 +5,11 @@ require_relative 'lib/irotsukegakari/version'
 Gem::Specification.new do |spec|
   spec.name = 'irotsukegakari'
   spec.version = Irotsukegakari::VERSION
-  spec.authors = ['arino']
-  spec.email = ['arino@example.com']
+  spec.authors = ['1s22s1']
+  spec.email = ['1s22s1@example.com']
 
-  spec.summary = 'ターミナル上で文字列を色付けします。'
-  spec.description = 'ターミナル上で文字列を色付けします。'
+  spec.summary = 'Irotsuke colorize sring on terminal'
+  spec.description = 'Irotsuke colorize sring on terminal'
   spec.homepage = 'https://github.com/1s22s1/shinoda'
   spec.required_ruby_version = '>= 2.6.0'
 

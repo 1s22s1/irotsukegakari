@@ -1,17 +1,16 @@
-# 色付け係
+# Irotsukegakari
 
-色付け係は、ターミナル上で文字列を色付けします。
-https://www.mm2d.net/main/prog/c/console-02.html を参考にANSIエスケープコードという機能を利用しています。
+Irotsuke colorize sring on terminal. https://www.mm2d.net/main/prog/c/console-02.html is reference and use ANSI escape code.
 
-## インストール方法
+## How to install
 
-シェル上で、次のコマンドを実行します。
+Run below command on the shell.
 
 ```console
 gem install irotsukegakari
 ```
 
-## 使い方
+## How to use
 
 ```ruby
 require 'irotsukegakari'
