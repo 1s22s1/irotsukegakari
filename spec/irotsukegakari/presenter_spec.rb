@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'spec_helper'
+
 RSpec.describe Irotsukegakari::Presenter do
   subject { described_class.new }
 
