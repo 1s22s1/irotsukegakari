@@ -17,3 +17,9 @@ require 'irotsukegakari'
 
 Irotsukegakari('This is Yudofu.').red # => "\e[31mThis is Yudofu.\e[0m"
 ```
+
+## Run test
+
+```console
+bundle exec rake spec
+```
